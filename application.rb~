@@ -58,7 +58,6 @@ class Application
     puts "\nhit enter to continue"
     gets
   end
-  #updates score and returns to menu if game is finished, otherwise initiates next turn
   def process_outcome(outcome)
     case outcome
     when :X # X wins
